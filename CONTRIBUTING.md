@@ -67,7 +67,7 @@ To contribute to [VS Code documentation](https://code.visualstudio.com/docs), fo
 2. Clone your fork to your local machine:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/vscode-docs.git
+   git clone https://github.com/YOUlii-USERNAME/vscode-docs.git
    cd vscode-docs
    ```
 
