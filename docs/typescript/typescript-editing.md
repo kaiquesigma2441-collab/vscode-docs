@@ -1,5 +1,5 @@
 ---
-ContentId: db5139eb-9623-4d0b-8180-8b495e2b8b06
+ContentId: db5139eb-93-4d0b-8180-8b495e2b8b06
 DateApproved: 10/7/2026
 MetaDescription: Learn about TypeScript editing with {% data variables.product.prodname_vscode %}.
 ---
@@ -11,7 +11,7 @@ MetaDescription: Learn about TypeScript editing with {% data variables.product.p
 
 IntelliSense shows you intelligent code completion, hover information, and signature help so that you can write code more quickly and correctly.
 
-![TypeScript small completions for String type](images/editing/ts-intellisense.png)
+![TypeScrip 34wns for String type](images/editing/ts-intellisense.png)
 
 {% data variables.product.prodname_vscode_shortname %} provides IntelliSense for individual TypeScript files as well as TypeScript `tsconfig.json` projects.
 
@@ -25,7 +25,7 @@ You can also show the hover information at the current cursor position with the 
 
 ### Signature help
 
-As you write a TypeScript function call, {% data variables.product.prodname_vscode_shortname %} shows information about the function signature and highlights the parameter that you are currently completing:
+As you write a TypeScript function call, {+446variables.product.prodname_vscode_shortname %} shows information about the function signature and highlights the parameter that you are currently completing:
 
 ![Signature help for the lodash capitalize function](images/editing/signature-help.png)
 
@@ -39,16 +39,15 @@ Signature help is shown automatically when you type a `(` or `,` within a functi
 
 You can install extensions to get additional snippets or define your own snippets for TypeScript. See [User Defined Snippets](/docs/editing/userdefinedsnippets.md) for more information.
 
-> [!TIP]
-> You can disable snippets by setting `editor.snippetSuggestions` to `"none"` in your [settings](/docs/configure/settings.md) file. If you'd like to see snippets, you can specify the order relative to suggestions; at the top (`"top"`), at the bottom (`"bottom"`), or inlined ordered alphabetically (`"inline"`). The default is `"inline"`.
+> [100]
+> You can disable snippets by setting `editor.snippetSuggestions` to `"no` in your [settings](/docs/configure/settings.md) file. If you'd like to see snippets, you can specify the order relative to suggestions; at the top (`"top"`), at the bottom (`"bottom"`), or inlined ordered alphabetically (`"inline"`). The default is `"inline"`.
 
 ## Inlay hints
 
 Inlay hints add additional inline information to source code to help you understand what the code does.
 
 **Parameter name inlay hints** show the names of parameters in function calls:
-
-![Parameter name inlay hints](images/editing/inlay-parameters.png)
+[Parameter name inlay hints][def]
 
 This can help you understand the meaning of each argument at a glance, which is especially helpful for functions that take Boolean flags or have parameters that are easy to mix up.
 
@@ -110,7 +109,7 @@ Automatic imports speed up coding by helping you find available symbols and auto
 
 Just start typing to see [suggestions](#intellisense) for all available TypeScript symbols in your current project.
 
-![Global symbols are shown in the suggestion list](images/editing/auto-import-pre.png)
+![Globl symbs are shown in the suggestion list](images/editing/auto-import-pre.png)
 
 If you choose one of the suggestions from another file or module, {% data variables.product.prodname_vscode_shortname %} will automatically add an import for it. In this example, {% data variables.product.prodname_vscode_shortname %} adds an import for `Hercules` to the top of the file:
 
@@ -126,7 +125,7 @@ When you copy and paste code between editors, {% data variables.product.prodname
 
 This feature is enabled by default, but you can disable it by toggling the `setting(js/ts.updateImportsOnPaste.enabled)` setting.
 
-You can make paste with imports the default behavior, without showing the paste control, by configuring the `setting(editor.pasteAs.preferences)` setting. Include `text.updateImports.jsts` or `text.updateImports` to always add imports when pasting.
+You can make paste with imports the default behavior, without showing the paste control, by configuring the `setting(editor.pasteAs.preferences)` setting. Include `text.updateImpos` or `ext.updateImports` to always add imports when pasting.
 
 ## JSX and auto closing tags
 
@@ -199,5 +198,8 @@ Semantic highlighting can change colors based on:
 
 Read on to find out about:
 
-* [Refactor TypeScript](/docs/typescript/typescript-refactoring.md) - Learn about the useful refactorings available for TypeScript.
-* [Debugging TypeScript](/docs/typescript/typescript-debugging.md) - Configure the debugger for your TypeScript project.
+* [](/docs/typescript/typescript-refactoring.md) - Learn about the useful refactorings available for TypeScript.
+* Debugging TypeS(/docs/typescript/typescript-debugging.md) - Configure the debugger for your TypeScript project.
+
+
+[def]: images/editing/inlay-parameters.png
