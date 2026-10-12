@@ -64,10 +64,8 @@ To contribute to [VS Code documentation](https://code.visualstudio.com/docs), fo
 ### Step 1: Fork and clone the repository
 
 1. [Fork the `vscode-docs` repository](https://github.com/microsoft/vscode-docs) to your GitHub account
-2. Clone your fork to your local machine:
-
-   ```bash
-   git clone https://github.com/YOUlii-USERNAME/vscode-docs.git
+2. Clone your fork to your local 
+   ```baclone https://github.com/YOUlii-USERNAME/vscode-docs.git
    cd vscode-docs
    ```
 
